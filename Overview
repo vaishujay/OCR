@@ -1,0 +1,53 @@
+OCR-Based Text Extraction Using Deep Learning & Tesseract
+
+🚀 An Optical Character Recognition (OCR) project leveraging Deep Learning and Tesseract to extract structured text from scanned documents.
+
+📌 Project Overview
+
+This project focuses on extracting meaningful text from scanned PDFs using Faster R-CNN for text region detection and Tesseract OCR for text recognition. The extracted text is formatted into JSON, DataFrame, and Excel files before being handed over to the frontend and deployment teams.
+
+🔍 Key Features
+
+✅ PDF to Image Conversion – Converting PDF documents into images for processing
+✅ Text Region Annotation – Using LabelMe for bounding box annotation
+✅ Model Training – Training a Faster R-CNN model with annotated data
+✅ High Accuracy – Achieved 99% accuracy using Intersection Over Union (IOU)
+✅ OCR Processing – Extracting text with Tesseract OCR
+✅ Output Formats – JSON, DataFrame, and Excel for structured output
+✅ Deployment Ready – Processed data is provided to the frontend and deployment teams
+
+🏗 Project Workflow
+
+📂 Input PDF → 🖼 Convert to Images → 🎯 Annotate with LabelMe → 🤖 Train Faster R-CNN → 📊 Evaluate Accuracy (IOU) → 🔍 Extract Text (Tesseract OCR) → 📄 Format Data (JSON, DataFrame, Excel) → 🚀 Deploy to Frontend
+
+🛠 Technologies Used
+
+Deep Learning – Faster R-CNN for text detection
+
+Tesseract OCR – Optical Character Recognition
+
+OpenCV – Image preprocessing
+
+LabelMe – Data annotation
+
+Python – Model implementation
+
+Pandas – Data formatting into structured outputs
+
+👥 Team Structure
+
+👨‍💻 Team Head: Vaishnavi Kulange
+👥 Total Team Members: 5🛠 Responsibilities: Model development, data preprocessing, and text extraction
+📤 Handover To: Frontend & Deployment Teams
+
+📊 Sample Results
+
+🔹 Input PDF Converted to Image (Include a sample image here)
+🔹 Detected Text Regions (Faster R-CNN Output): (Include a sample bounding box output)
+🔹 Final Extracted Text Output in JSON Format:
+{
+  "Invoice No": "12345",
+  "Date": "01-01-2024",
+  "Total Amount": "$250.00"
+  "Name: S.V.Salaskar
+}
